@@ -1,56 +1,45 @@
 # DIGILIB - Proyecto Integrador
-> Sistema para App de Biblioteca Digital Segura para la Solicitud y Préstamo de Libros en Línea por Estudiantes 
+> Sistema para App de Biblioteca Digital Segura para la Solicitud y Préstamo de Libros en Línea por Estudiantes[cite: 1].
 
 ## 🎓 Información Académica
-* **Institución:** Universidad de San Buenaventura
-* **Programa:** Tecnología en Desarrollo de Software
-* **Semestre:** 2
-* **Asignatura:** Programación de Base de Datos
+* **Institución:** Universidad de San Buenaventura[cite: 1]
+* **Programa:** Tecnología en Desarrollo de Software[cite: 1]
+* **Semestre:** I Semestre[cite: 1]
+* **Asignatura:** Fundamentos de Proyectos de Tecnología[cite: 1]
 
 ---
 
 ## 👥 Integrantes
 | Nombre Completo | Rol en el Proyecto | Usuario GitLab |
 | :--- | :--- | :--- |
-| Samuel Sanabria | Líder / Backend | @usuario1 |
-| Carlos Aponte | Frontend / UX | @usuario2 |
+| Sanabria Castro Samuel Felipe | Base de Datos / Backend | @samuelsanabria032 |
+| Mieles Camacho Gerson Estiven | Frontend / UX | @ |
+| Carlos David Aponte Barajas | Lider / QA | @ |
 
 ---
 
 ## 🚀 Descripción del Proyecto
-En la actualidad, las bibliotecas universitarias desempeñan un papel fundamental en el apoyo a los procesos académicos y de investigación; sin embargo, muchas de ellas presentan deficiencias en la gestión de sus procesos administrativos debido al uso de procedimientos manuales o sistemas tecnológicos limitados. Esta situación genera ineficiencias en el control del inventario bibliográfico, dificultades en el registro de préstamos y devoluciones, así como demoras en la atención a los usuarios, lo que afecta negativamente la calidad del servicio bibliotecario.
-
-A pesar de que algunas instituciones educativas cuentan con bases de datos digitales para el almacenamiento de información bibliográfica, una parte significativa de los procesos operativos continúa realizándose de forma manual. Según (JOEL, 2025), actividades como el préstamo y la devolución de libros suelen depender de registros físicos, lo que incrementa el consumo de tiempo y recursos, además de elevar el riesgo de errores, pérdidas de información e inconsistencias en los datos administrativos 
-
-Estas deficiencias afectan directamente la organización interna y reducen la accesibilidad a los recursos bibliográficos por parte de la comunidad estudiantil, asimismo, la falta de automatización en los procesos bibliotecarios impacta negativamente en la experiencia de los usuarios, quienes enfrentan retrasos en la consulta, solicitud y devolución de materiales. Esta problemática se agrava en contextos universitarios donde existe una alta demanda de recursos académicos y un número limitado de personal administrativo, lo que genera sobrecarga operativa y disminuye la eficiencia del servicio. 
-
-DIGILIB puede ser la solución a esta problemática ya que nos centramos en mejorar la gestión administrativa y operativa de las bibliotecas universitarias mediante soluciones tecnológicas que permitan automatizar, controlar y optimizar los procesos bibliotecarios para responder de manera oportuna a las necesidades institucionales. 
+DIGILIB es una plataforma web desarrollada para automatizar la gestión administrativa y operativa de la biblioteca universitaria en la Universidad de San Buenaventura (Sede Suba, Bogotá)[cite: 1]. El sistema optimiza el control del inventario bibliográfico, la administración de usuarios y la trazabilidad de solicitudes, préstamos, devoluciones y multas, reemplazando registros manuales e ineficientes[cite: 1].
 
 ### 🎯 Objetivos
-1. **General:** Desarrollar un sistema de biblioteca digital seguro que permita gestionar de manera eficiente los procesos de registro, consulta, solicitud, préstamo y devolución de material bibliográfico, así como la administración de usuarios y multas, con el fin de optimizar los procesos administrativos y operativos de la biblioteca universitaria, garantizando la disponibilidad, integridad y confiabilidad de la información. 
+1. **General:** Desarrollar un sistema de biblioteca digital seguro para gestionar de manera eficiente el registro, consulta, solicitud, préstamo y devolución de material bibliográfico, así como la administración de usuarios y multas[cite: 1].
 2. **Específicos:**
-   * Desarrollar el módulo...
-   * Implementar...
+   * Identificar las necesidades de los estudiantes e impactos operativos en el servicio bibliotecario[cite: 1].
+   * Definir y aplicar la metodología de desarrollo Scrum integrada con el modelado UWE[cite: 1].
+   * Implementar la arquitectura modular del sistema para garantizar la trazabilidad, disponibilidad e integridad de la información[cite: 1].
 
 ---
 
 ## 🛠️ Stack Tecnológico
-* **Lenguajes:** Python, JavaScript, etc.
-* **Bases de Datos:** PostgreSQL, SQLite, etc.
-* **Herramientas:** Git, GitLab CI/CD.
+* **Metodología:** Scrum / Modelado UWE[cite: 1]
+* **Lenguajes / Base de Datos:** Entorno Web / Gestor Relacional[cite: 1]
+* **Herramientas:** Git, GitLab[cite: 1]
 
 ---
 
 ## ⚙️ Instalación y Ejecución local
-Instrucciones paso a paso para que el docente pueda ejecutar el proyecto:
 
 1. Clonar el repositorio:
-   `git clone https://gitlab.com/usuario/proyecto.git`
-2. Instalar dependencias correspondientes.
-3. Configurar variables de entorno si es necesario.
-4. Comando de ejecución.
-
----
-
-## 📊 Evidencias de Funcionamiento
-*Insertar aquí capturas de pantalla del software en funcionamiento.*
+   ```bash
+   git clone [https://gitlab.com/universidad-san-buenaventura/digilib.git](https://gitlab.com/universidad-san-buenaventura/digilib.git)
+   cd digilib
